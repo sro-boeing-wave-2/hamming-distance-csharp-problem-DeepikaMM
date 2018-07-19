@@ -22,9 +22,9 @@ namespace Hamming
             }
             else
             {
-                for(int k=0;k<original.Length; k++)
+                for(int l=0;l<original.Length; l++)
                 {
-                    if(original[k]!= current[k])
+                    if(original[l]!= current[l])
                     {
                         hammingDistance++;
                     }
